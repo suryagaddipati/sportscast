@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes
+END
+Team.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/Team.m
+END
+GoogleReaderLogin.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/GoogleReaderLogin.m
+END
+NewsSourceCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/NewsSourceCell.h
+END
+OptimizedReadSettingCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/16/trunk/FollowMyTeams/Classes/OptimizedReadSettingCell.h
+END
+TeamSelectionController.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/FollowMyTeams/Classes/TeamSelectionController.h
+END
+AppSettingsController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/16/trunk/FollowMyTeams/Classes/AppSettingsController.xib
+END
+AtomFeedParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/AtomFeedParser.h
+END
+NewsSourceCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/NewsSourceCell.m
+END
+OptimizedReadSettingCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/16/trunk/FollowMyTeams/Classes/OptimizedReadSettingCell.m
+END
+TeamSelectionController.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/TeamSelectionController.m
+END
+TeamsList.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/TeamsList.h
+END
+AppSettingsController.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/16/trunk/FollowMyTeams/Classes/AppSettingsController.h
+END
+AtomFeedParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18/trunk/FollowMyTeams/Classes/AtomFeedParser.m
+END
+TextAlertView.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/TextAlertView.h
+END
+StoryDetailController.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/StoryDetailController.h
+END
+TeamsList.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/TeamsList.m
+END
+AppSettingsController.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/16/trunk/FollowMyTeams/Classes/AppSettingsController.m
+END
+StoryDetailController.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/StoryDetailController.m
+END
+TextAlertView.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/TextAlertView.m
+END
+ParsedStory.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/ParsedStory.h
+END
+StoryCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/17/trunk/FollowMyTeams/Classes/StoryCell.h
+END
+SportSelectionController.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/FollowMyTeams/Classes/SportSelectionController.h
+END
+ParsedStory.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/ParsedStory.m
+END
+Darwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/Darwin.h
+END
+StoryCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/17/trunk/FollowMyTeams/Classes/StoryCell.m
+END
+SportSelectionController.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/SportSelectionController.m
+END
+TTSearchlightLabel+FeedReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/TTSearchlightLabel+FeedReader.h
+END
+Darwin.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/Darwin.m
+END
+Options.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/Options.h
+END
+TTSearchlightLabel+FeedReader.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/TTSearchlightLabel+FeedReader.m
+END
+TeamSelection.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/TeamSelection.h
+END
+TwitterViewViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/18/trunk/FollowMyTeams/Classes/TwitterViewViewController.h
+END
+StorySummaryViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/StorySummaryViewController.h
+END
+NewsSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/NewsSource.h
+END
+FollowMyTeamsAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/FollowMyTeamsAppDelegate.h
+END
+Options.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/Options.m
+END
+MainTeamSelectionViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/FollowMyTeams/Classes/MainTeamSelectionViewController.h
+END
+TeamSelection.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/TeamSelection.m
+END
+TwitterViewViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/18/trunk/FollowMyTeams/Classes/TwitterViewViewController.m
+END
+StorySummaryViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/18/trunk/FollowMyTeams/Classes/StorySummaryViewController.m
+END
+NewsSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/NewsSource.m
+END
+UITableViewCell+FeedReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/UITableViewCell+FeedReader.h
+END
+FollowMyTeamsAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/18/trunk/FollowMyTeams/Classes/FollowMyTeamsAppDelegate.m
+END
+MainTeamSelectionViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/MainTeamSelectionViewController.m
+END
+UITableViewCell+FeedReader.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/UITableViewCell+FeedReader.m
+END
+StoryView.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/17/trunk/FollowMyTeams/Classes/StoryView.h
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/Constants.h
+END
+Story.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/Story.h
+END
+StoryView.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/17/trunk/FollowMyTeams/Classes/StoryView.m
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/RootViewController.h
+END
+Story.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/16/trunk/FollowMyTeams/Classes/Story.m
+END
+Team.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/Team.h
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/18/trunk/FollowMyTeams/Classes/RootViewController.m
+END
+GoogleReaderLogin.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/15/trunk/FollowMyTeams/Classes/GoogleReaderLogin.h
+END

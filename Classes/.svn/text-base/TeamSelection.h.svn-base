@@ -1,0 +1,27 @@
+//
+//  TeamSelection.h
+//  FollowMyTeams
+//
+//  Created by surya gaddipati on 8/17/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+#import "Team.h"
+#import "NSArrayHelper.h"
+
+@interface TeamSelection : NSObject {
+	Team* selectedTeam1;
+	Team* selectedTeam2;
+	Team* selectedTeam3;
+}
+@property (nonatomic, retain) Team* selectedTeam1;
+@property (nonatomic, retain) Team* selectedTeam2;
+@property (nonatomic, retain) Team* selectedTeam3;
+
+-(BOOL) teamsSelected;
+-(void) loadSelection;
+-(NSMutableArray*) getNonNilTeams;
+-(void) saveSelection;
+@end

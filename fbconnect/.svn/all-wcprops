@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect
+END
+.DS_Store
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/.DS_Store
+END
+FBXMLHandler.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBXMLHandler.m
+END
+FBDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBDialog.m
+END
+FBFeedDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBFeedDialog.m
+END
+FBSession.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBSession.m
+END
+FBLoginButton.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBLoginButton.m
+END
+FBLoginDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBLoginDialog.m
+END
+FBPermissionDialog.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBPermissionDialog.m
+END
+FBRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBRequest.m
+END
+FBXMLHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBXMLHandler.h
+END
+FBConnectGlobal.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/trunk/FollowMyTeams/Classes/fbconnect/FBConnectGlobal.m
+END

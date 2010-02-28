@@ -1,0 +1,54 @@
+
+#import "Team.h"
+
+
+@implementation Team
+@synthesize code,name,continuation;
+
+
+-(void)dealloc{
+	[super dealloc];
+	[code release];
+	[name release];
+	if(continuation != nil){
+		//NSLog(@"releasing continuation : %@" ,continuation); //    [continuation release];
+	}
+}
+
+-(NSString*)logoImage{
+	return [NSString stringWithFormat:@"%@.gif",[code lowercaseString] ];
+}
+- (void)encodeWithCoder:(NSCoder *)aCoder{
+	[aCoder encodeObject:code forKey:@"code"];
+	[aCoder encodeObject:name forKey:@"name"];
+	//[aCoder encodeObject:continuation forKey:@"continuation"];
+	
+}
+- (id)initWithCoder:(NSCoder *)aDecoder{
+	if(self=[super init]){
+		self.code =  [aDecoder decodeObjectForKey:@"code"];
+		self.name =  [aDecoder decodeObjectForKey:@"name"];
+	  //  self.continuation = [aDecoder decodeObjectForKey:@"continuation"];
+	}
+	return self;
+	
+}
+- (id)copyWithZone:(NSZone *)zone{
+    Team* teamCopy = 	[ [[self class]allocWithZone:zone] init];	
+	teamCopy.code = self.code;
+	teamCopy.name = self.name;
+	return teamCopy;
+}
+- (BOOL)isEqual:(id)other {
+	if(other == nil) return NO;
+    if (other == self)
+        return YES;
+    if (!other || ![other isKindOfClass:[self class]])
+        return NO;
+    return [self.code isEqualToString: ((Team*)other).code];
+}
+
+
+
+
+@end

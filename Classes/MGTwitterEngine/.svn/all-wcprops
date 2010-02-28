@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine
+END
+MGTwitterXMLParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterXMLParser.m
+END
+MGTwitterHTTPURLConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterHTTPURLConnection.h
+END
+NSData+Base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/NSData+Base64.h
+END
+MGTwitterMessagesParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterMessagesParser.h
+END
+MGTwitterMiscLibXMLParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterMiscLibXMLParser.m
+END
+MGTwitterUsersLibXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterUsersLibXMLParser.h
+END
+MGTwitterParserDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterParserDelegate.h
+END
+MGTwitterHTTPURLConnection.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterHTTPURLConnection.m
+END
+NSData+Base64.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/NSData+Base64.m
+END
+MGTwitterMessagesParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterMessagesParser.m
+END
+MGTwitterUsersLibXMLParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterUsersLibXMLParser.m
+END
+MGTwitterEngineGlobalHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterEngineGlobalHeader.h
+END
+MGTwitterEngineDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterEngineDelegate.h
+END
+MGTwitterStatusesLibXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterStatusesLibXMLParser.h
+END
+MGTwitterEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterEngine.h
+END
+MGTwitterStatusesLibXMLParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m
+END
+MGTwitterMiscParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterMiscParser.h
+END
+MGTwitterEngine.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterEngine.m
+END
+MGTwitterMiscParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterMiscParser.m
+END
+MGTwitterUsersParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterUsersParser.h
+END
+MGTwitterUsersParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterUsersParser.m
+END
+MGTwitterStatusesParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterStatusesParser.h
+END
+MGTwitterMessagesLibXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterMessagesLibXMLParser.h
+END
+MGTwitterStatusesParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterStatusesParser.m
+END
+MGTwitterMessagesLibXMLParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m
+END
+NSString+UUID.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/NSString+UUID.h
+END
+MGTwitterLibXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterLibXMLParser.h
+END
+MGTwitterEngine_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterEngine_Prefix.pch
+END
+NSString+UUID.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/NSString+UUID.m
+END
+MGTwitterLibXMLParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterLibXMLParser.m
+END
+MGTwitterRequestTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterRequestTypes.h
+END
+MGTwitterXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterXMLParser.h
+END
+MGTwitterMiscLibXMLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/MGTwitterEngine/MGTwitterMiscLibXMLParser.h
+END

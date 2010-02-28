@@ -1,0 +1,21 @@
+//
+//  TeamsList.h
+//  FutballNews
+//
+//  Created by surya gaddipati on 7/1/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+
+@interface TeamsList : NSObject {
+
+}
++(NSArray*) nfl;
++(NSArray*) nhl;
++(NSArray*) mlb;
++(NSArray*) nba;
++(void) addTeam:(NSMutableArray*)teams  code:(NSString*) code name:(NSString*)name;
+
+@end

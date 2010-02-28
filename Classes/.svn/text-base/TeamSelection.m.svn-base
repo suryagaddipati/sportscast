@@ -1,0 +1,78 @@
+//
+//  TeamSelection.m
+//  FollowMyTeams
+//
+//  Created by surya gaddipati on 8/17/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import "TeamSelection.h"
+
+
+@implementation TeamSelection
+@synthesize selectedTeam1,selectedTeam2,selectedTeam3;
+- (id) init{
+    self = [super init];
+    if (self != nil) {
+		[self loadSelection];		
+    }
+    return self;
+}
+
+- (NSString *)dataFilePath
+{
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	return [documentsDirectory stringByAppendingPathComponent:@"dataarchive.plist"];
+}
+
+
+-(void) loadSelection{
+	NSString *filePath = [self dataFilePath];
+	if ([[NSFileManager defaultManager] fileExistsAtPath:filePath])
+	{
+		NSData *data = [[NSMutableData alloc] initWithContentsOfFile:[self dataFilePath]];
+		NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
+		self.selectedTeam1 = [unarchiver decodeObjectForKey:@"selectedTeam1"];
+		self.selectedTeam2 = [unarchiver decodeObjectForKey:@"selectedTeam2"];
+		self.selectedTeam3 = [unarchiver decodeObjectForKey:@"selectedTeam3"];
+		[unarchiver finishDecoding];
+		[unarchiver release];
+		[data release];
+	}
+}
+
+-(NSMutableArray*) getNonNilTeams{
+	NSMutableArray* nonnilTeams = [NSMutableArray array];
+	if(selectedTeam1 != nil) [nonnilTeams addObject:selectedTeam1];
+	if(selectedTeam2 != nil) [nonnilTeams addObject:selectedTeam2];
+	if(selectedTeam3 != nil) [nonnilTeams addObject:selectedTeam3];
+	return nonnilTeams;
+}
+
+-(BOOL) teamsSelected{
+	return ! [[self getNonNilTeams] isEmpty];
+}
+
+-(void) dealloc{
+	[super dealloc];
+	[self.selectedTeam1 release];
+	[self.selectedTeam2 release];
+	[self.selectedTeam3 release];
+}
+
+
+-(void) saveSelection{
+	NSMutableData *data = [[NSMutableData alloc] init];
+	NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
+	if(selectedTeam1 != nil) 	[archiver encodeObject:selectedTeam1 forKey: @"selectedTeam1" ];
+	if(selectedTeam2 != nil)	[archiver encodeObject:selectedTeam2 forKey: @"selectedTeam2" ];
+	if(selectedTeam3 != nil)	[archiver encodeObject:selectedTeam3 forKey: @"selectedTeam3" ];
+	[archiver finishEncoding];
+	[data writeToFile:[self dataFilePath] atomically:YES];
+	[archiver release];
+	[data release];
+	
+}
+
+@end

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings
+END
+SettingsDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsDelegate.h
+END
+MultiValueCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/MultiValueCell.m
+END
+ChildPaneCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/ChildPaneCell.m
+END
+NumberCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/NumberCell.m
+END
+MultiValueEditorViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/MultiValueEditorViewController.h
+END
+TextfieldCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/TextfieldCell.m
+END
+SettingsViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsViewController.h
+END
+SettingsCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsCell.h
+END
+MultiValueEditorViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/MultiValueEditorViewController.m
+END
+TimeIntervalCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/TimeIntervalCell.h
+END
+ToggleSwitchCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/ToggleSwitchCell.h
+END
+SettingsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/14/trunk/FollowMyTeams/Classes/settings/SettingsViewController.m
+END
+SettingsCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsCell.m
+END
+SettingsEditorViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsEditorViewController.h
+END
+ToggleSwitchCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/ToggleSwitchCell.m
+END
+TimeIntervalCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/TimeIntervalCell.m
+END
+MutableMetadataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/MutableMetadataSource.h
+END
+SettingsEditorViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsEditorViewController.m
+END
+MutableMetadataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/MutableMetadataSource.m
+END
+SettingsCellProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsCellProtocol.h
+END
+SettingsMetadataSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsMetadataSource.h
+END
+MultiValueCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/MultiValueCell.h
+END
+ChildPaneCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/ChildPaneCell.h
+END
+SettingsMetadataSource.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/SettingsMetadataSource.m
+END
+NumberCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/NumberCell.h
+END
+TextfieldCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/FollowMyTeams/Classes/settings/TextfieldCell.h
+END

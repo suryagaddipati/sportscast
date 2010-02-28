@@ -1,0 +1,186 @@
+//
+//  TeamsList.m
+//  FutballNews
+//
+//  Created by surya gaddipati on 7/1/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import "TeamsList.h"
+#import "Team.h" 
+
+
+@interface TeamsList(PrivateMethods)
++(void) addTeam:(NSMutableArray*)teams  code:(NSString*) code name:(NSString*)name   feedUrls:(NSArray*) feedUrls;
++(void) addTeam1:(NSMutableArray*)teams  code:(NSString*) code name:(NSString*)name feedUrls: (NSArray*) feedUrls;
+@end
+
+
+
+@implementation TeamsList
+
+
++(NSArray*) nfl{	
+	NSMutableArray* nflTeams = [NSMutableArray  array];
+	
+	[self addTeam : nflTeams code:@"NFLARI" name:@"Arizona Cardinals" ];
+	[self addTeam : nflTeams code:@"NFLATL" name:@"Atlanta Falcons" ];
+	[self addTeam : nflTeams code:@"NFLBAL" name:@"Baltimore Ravens" ];
+	[self addTeam : nflTeams code:@"NFLBUF" name:@"Buffalo Bills" ];
+	[self addTeam : nflTeams code:@"NFLCAR" name:@"Carolina Panthers" ];
+	[self addTeam : nflTeams code:@"NFLCHI" name:@"Chicago Bears" ];
+	[self addTeam : nflTeams code:@"NFLCIN" name:@"Cincinnati Bengals" ];
+	[self addTeam : nflTeams code:@"NFLCLE" name:@"Cleveland Browns" ];
+	[self addTeam : nflTeams code:@"NFLDAL" name:@"Dallas Cowboys" ];
+	[self addTeam : nflTeams code:@"NFLDEN" name:@"Denver Broncos" ];
+	[self addTeam : nflTeams code:@"NFLDET" name:@"Detroit Lions" ];
+	[self addTeam : nflTeams code:@"NFLGB" name:@"Green Bay Packers" ];
+	[self addTeam : nflTeams code:@"NFLHOU" name:@"Houston Texans" ];
+	[self addTeam : nflTeams code:@"NFLIND" name:@"Indianapolis Colts" ];
+	[self addTeam : nflTeams code:@"NFLJAC" name:@"Jacksonville Jaguars" ];
+	[self addTeam : nflTeams code:@"NFLKC" name:@"Kansas City Chiefs" ];
+	[self addTeam : nflTeams code:@"NFLMIA" name:@"Miami Dolphins" ];
+	[self addTeam : nflTeams code:@"NFLMIN" name:@"Minnesota Vikings " ];
+	[self addTeam : nflTeams code:@"NFLNE" name:@"New England Patriots" ];
+	[self addTeam : nflTeams code:@"NFLNO" name:@"New Orleans Saints" ];
+	[self addTeam : nflTeams code:@"NFLNYG" name:@"New York Giants" ];
+	[self addTeam : nflTeams code:@"NFLNYJ" name:@"New York Jets" ];
+	[self addTeam : nflTeams code:@"NFLOAK" name:@"Oakland Raiders" ];
+	[self addTeam : nflTeams code:@"NFLPHI" name:@"Philadelphia Eagles" ];
+	[self addTeam : nflTeams code:@"NFLPIT" name:@"Pittsburgh Steelers" ];
+	[self addTeam : nflTeams code:@"NFLSD" name:@"San Diego Chargers" ];
+	[self addTeam : nflTeams code:@"NFLSEA" name:@"Seattle Seahawks" ];
+	[self addTeam : nflTeams code:@"NFLSF" name:@"San Francisco 49ers" ];
+	[self addTeam : nflTeams code:@"NFLSTL" name:@"St. Louis Rams" ];
+	[self addTeam : nflTeams code:@"NFLTB" name:@"Tampa Bay Buccaneers" ];
+	[self addTeam : nflTeams code:@"NFLTEN" name:@"Tennessee Titans" ];
+	[self addTeam : nflTeams code:@"NFLWAS" name:@"Washington Redskins" ];
+	
+
+	
+	return nflTeams;
+}
+
++(NSArray*) nhl{
+	NSMutableArray* nflTeams = [NSMutableArray array];
+	[self addTeam : nflTeams code:@"NHLANA" name:@"Anaheim Mighty Ducks" ];
+	[self addTeam : nflTeams code:@"NHLATL" name:@"Atlanta Thrashers" ];
+	[self addTeam : nflTeams code:@"NHLBOS" name:@"Boston Bruins" ];
+	[self addTeam : nflTeams code:@"NHLBUF" name:@"Buffalo Sabres" ];
+	[self addTeam : nflTeams code:@"NHLCAR" name:@"Carolina Hurricanes" ];
+	[self addTeam : nflTeams code:@"NHLCGY" name:@"Calgary Flames" ];
+	[self addTeam : nflTeams code:@"NHLCHI" name:@"Chicago Blackhawks" ];
+	[self addTeam : nflTeams code:@"NHLCLS" name:@"Columbus Blue Jackets" ];
+	[self addTeam : nflTeams code:@"NHLCOL" name:@"Colorado Avalanche" ];
+	[self addTeam : nflTeams code:@"NHLDAL" name:@"Dallas Stars" ];
+	[self addTeam : nflTeams code:@"NHLDET" name:@"Detroit Red Wings" ];
+	[self addTeam : nflTeams code:@"NHLEDM" name:@"Edmonton Oilers" ];
+	[self addTeam : nflTeams code:@"NHLFLA" name:@"Florida Panthers" ];
+	[self addTeam : nflTeams code:@"NHLLOS" name:@"Los Angeles Kings" ];
+	[self addTeam : nflTeams code:@"NHLMIN" name:@"Minnesota Wild" ];
+	[self addTeam : nflTeams code:@"NHLMON" name:@"Montréal Canadiens" ];
+	[self addTeam : nflTeams code:@"NHLNJD" name:@"New Jersey Devils" ];
+	[self addTeam : nflTeams code:@"NHLNSH" name:@"Nashville Predators" ];
+	[self addTeam : nflTeams code:@"NHLNYI" name:@"New York Islanders" ];
+	[self addTeam : nflTeams code:@"NHLNYR" name:@"New York Rangers" ];
+	[self addTeam : nflTeams code:@"NHLOTT" name:@"Ottawa Senators" ];
+	[self addTeam : nflTeams code:@"NHLPHI" name:@"Philadelphia Flyers" ];
+	[self addTeam : nflTeams code:@"NHLPHO" name:@"Phoenix Coyotes" ];
+	[self addTeam : nflTeams code:@"NHLPIT" name:@"Pittsburgh Penguins" ];
+	[self addTeam : nflTeams code:@"NHLSAN" name:@"San Jose Sharks" ];
+	[self addTeam : nflTeams code:@"NHLSTL" name:@"St.Louis Blues" ];
+	[self addTeam : nflTeams code:@"NHLTAM" name:@"Tampa Bay Lightning" ];
+	[self addTeam : nflTeams code:@"NHLTOR" name:@"Toronto Maple Leafs" ];
+	[self addTeam : nflTeams code:@"NHLVAN" name:@"Vancouver Canucks" ];
+	[self addTeam : nflTeams code:@"NHLWAS" name:@"Washington Capitals" ];
+	return nflTeams;
+}
+
++(NSArray*) mlb{
+	NSMutableArray* nflTeams = [NSMutableArray array];
+	[self addTeam : nflTeams code: @"MLBARI" name: @"Arizona Diamondbacks" ];
+	[self addTeam : nflTeams code: @"MLBATL" name: @"Atlanta Braves" ];
+	[self addTeam : nflTeams code: @"MLBBAL" name: @"Baltimore Orioles" ];
+	[self addTeam : nflTeams code: @"MLBBOS" name: @"Boston Red Sox" ];
+	[self addTeam : nflTeams code: @"MLBCHW" name: @"Chicago White Sox" ];
+	[self addTeam : nflTeams code: @"MLBCHC" name: @"Chicago Cubs" ];
+	[self addTeam : nflTeams code: @"MLBCIN" name: @"Cinncinnati Reds" ];
+	[self addTeam : nflTeams code: @"MLBCLE" name: @"Cleveland Indians" ];
+	[self addTeam : nflTeams code: @"MLBCOL" name: @"Colorado Rockies" ];
+	[self addTeam : nflTeams code: @"MLBDET" name: @"Detroit Tigers" ];
+	[self addTeam : nflTeams code: @"MLBFLO" name: @"Florida Marlins" ];
+	[self addTeam : nflTeams code: @"MLBHOU" name: @"Houston Astros" ];
+	[self addTeam : nflTeams code: @"MLBKAN" name: @"Kansas City Royals" ];
+	[self addTeam : nflTeams code: @"MLBLAA" name: @"Los Angeles Angels" ];
+	[self addTeam : nflTeams code: @"MLBLAD" name: @"Los Angeles Dodgers" ];
+	[self addTeam : nflTeams code: @"MLBMIL" name: @"Milwaukee Brewers" ];
+	[self addTeam : nflTeams code: @"MLBMIN" name: @"Minnesota Twins" ];
+	[self addTeam : nflTeams code: @"MLBNYM" name: @"New York Mets" ];
+	[self addTeam : nflTeams code: @"MLBNYY" name: @"New York Yankees" ];
+	[self addTeam : nflTeams code: @"MLBOAK" name: @"Oakland Athletics" ];
+	[self addTeam : nflTeams code: @"MLBPHI" name: @"Philadelphia Phillies" ];
+	[self addTeam : nflTeams code: @"MLBPIT" name: @"Pittsburgh Pirates" ];
+	[self addTeam : nflTeams code: @"MLBSDG" name: @"San Diego Padres" ];
+	[self addTeam : nflTeams code: @"MLBSFO" name: @"San Francisco Giants" ];
+	[self addTeam : nflTeams code: @"MLBSEA" name: @"Seattle Mariners" ];
+	[self addTeam : nflTeams code: @"MLBSTL" name: @"St. Louis Cardinals" ];
+	[self addTeam : nflTeams code: @"MLBTAM" name: @"Tampa Bay Rays" ];
+	[self addTeam : nflTeams code: @"MLBTEX" name: @"Texas Rangers" ];
+	[self addTeam : nflTeams code: @"MLBTOR" name: @"Toronto Blue Jays" ];
+	[self addTeam : nflTeams code: @"MLBWAS" name: @"Washington Nationals" ];
+	return nflTeams;	
+}
+
++(NSArray*) nba{
+	NSMutableArray* nflTeams = [NSMutableArray array];
+	[self addTeam : nflTeams code:@"NBAATL" name:@"Atlanta Hawks" ];
+	[self addTeam : nflTeams code:@"NBABOS" name:@"Boston Celtics" ];
+	[self addTeam : nflTeams code:@"NBACHA" name:@"Charlotte Bobcats" ];
+	[self addTeam : nflTeams code:@"NBACHI" name:@"Chicago Bulls" ];
+	[self addTeam : nflTeams code:@"NBACLE" name:@"Cleveland Cavaliers" ];
+	[self addTeam : nflTeams code:@"NBADAL" name:@"Dallas Mavericks" ];
+	[self addTeam : nflTeams code:@"NBADEN" name:@"Denver Nuggets" ];
+	[self addTeam : nflTeams code:@"NBADET" name:@"Detroit Pistons " ];
+	[self addTeam : nflTeams code:@"NBAGSW" name:@"Golden State Warriors" ];
+	[self addTeam : nflTeams code:@"NBAHOU" name:@"Houston Rockets" ];
+	[self addTeam : nflTeams code:@"NBAIND" name:@"Indiana Pacers" ];
+	[self addTeam : nflTeams code:@"NBALAC" name:@"Los Angeles Clippers " ];
+	[self addTeam : nflTeams code:@"NBALAL" name:@"Los Angeles Lakers " ];
+	[self addTeam : nflTeams code:@"NBAMEM" name:@"Memphis Grizzlies" ];
+	[self addTeam : nflTeams code:@"NBAMIA" name:@"Miami Heat" ];
+	[self addTeam : nflTeams code:@"NBAMIL" name:@"Milwaukee Bucks " ];
+	[self addTeam : nflTeams code:@"NBAMIN" name:@"Minnesota Timberwolves " ];
+	[self addTeam : nflTeams code:@"NBANJN" name:@"New Jersey Nets " ];
+	[self addTeam : nflTeams code:@"NBANOR" name:@"New Orleans Hornets " ];
+	[self addTeam : nflTeams code:@"NBANYK" name:@"New York Knicks " ];
+	[self addTeam : nflTeams code:@"NBAOKC" name:@"Oklahoma City Thunder" ];
+	[self addTeam : nflTeams code:@"NBAORL" name:@"Orlando Magic " ];
+	[self addTeam : nflTeams code:@"NBAPHI" name:@"Philadelphia Sixers " ];
+	[self addTeam : nflTeams code:@"NBAPHO" name:@"Phoenix Suns " ];
+	[self addTeam : nflTeams code:@"NBAPOR" name:@"Portland TrailBlazers " ];
+	[self addTeam : nflTeams code:@"NBASAC" name:@"Sacramento Kings " ];
+	[self addTeam : nflTeams code:@"NBASAN" name:@"San Antonio Spurs " ];
+	[self addTeam : nflTeams code:@"NBATOR" name:@"Toronto Raptors " ];
+	[self addTeam : nflTeams code:@"NBAUTH" name:@"Utah Jazz " ];
+	[self addTeam : nflTeams code:@"NBAWAS" name:@"Washington Wizards " ];
+	
+
+	return nflTeams;	
+}
+
+
+
+
+
++(void) addTeam:(NSMutableArray*)teams  code:(NSString*) code name:(NSString*)name{
+	Team* team = [Team new];
+	team.code = [code lowercaseString];
+	team.name = name;
+	[teams addObject:team];
+	[team release];
+}
+
+
+	 
+
+@end

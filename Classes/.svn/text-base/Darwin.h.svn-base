@@ -1,0 +1,18 @@
+//
+//  Darwin.h
+//  FollowMyTeams
+//
+//  Created by surya gaddipati on 8/6/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "RootViewController.h"
+
+@interface Darwin : NSObject {
+	RootViewController* controller ;
+	NSString* sid;
+}
+- (id) init:(RootViewController*) rutControler;
+@property (nonatomic, retain) NSString * sid;
+@end

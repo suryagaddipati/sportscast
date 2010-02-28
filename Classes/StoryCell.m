@@ -1,0 +1,45 @@
+
+
+#import "StoryCell.h"
+
+#import "StoryView.h"
+
+
+
+@implementation StoryCell
+
+@synthesize storyView;
+
+
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+
+	if (self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier]) {
+		
+		// Create a time zone view and add it as a subview of self's contentView.
+		CGRect tzvFrame = CGRectMake(0.0, 0.0, self.contentView.bounds.size.width, self.contentView.bounds.size.height);
+		storyView = [[StoryView alloc] initWithFrame:tzvFrame];
+		storyView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+		[self.contentView addSubview:storyView];
+		
+	}
+	return self;
+}
+
+
+- (void)setStory:(Story *)newStory {
+	storyView.story = newStory;
+}
+
+
+-(void) refresh{
+	[storyView refresh];
+	
+}
+
+- (void)dealloc {
+	[storyView release];
+    [super dealloc];
+}
+
+
+@end

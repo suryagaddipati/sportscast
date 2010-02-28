@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html
+END
+AnalyzerRegions.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/AnalyzerRegions.html
+END
+InternalsManual.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/InternalsManual.html
+END
+libIndex.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/libIndex.html
+END
+UsersManual.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/UsersManual.html
+END
+doxygen.css
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/doxygen.css
+END
+LanguageExtensions.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/LanguageExtensions.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/index.html
+END
+PCHInternals.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/PCHInternals.html
+END
+DriverInternals.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/DriverInternals.html
+END
+PTHInternals.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/FollowMyTeams/docs/llvm/html/PTHInternals.html
+END

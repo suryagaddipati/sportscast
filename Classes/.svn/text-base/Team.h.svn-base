@@ -1,0 +1,24 @@
+//
+//  Team.h
+//  FutballNews
+//
+//  Created by surya gaddipati on 7/1/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+
+@interface Team : NSObject<NSCoding,NSCopying> {
+    NSString *code;
+	 NSString *name;
+	NSString *continuation;
+
+}
+
+@property (nonatomic, retain) NSString *code;
+@property (nonatomic, retain) NSString *name;
+@property (nonatomic, retain) NSString *continuation;
+@property (nonatomic,readonly) NSString*logoImage;
+
+@end

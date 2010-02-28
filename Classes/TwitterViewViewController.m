@@ -1,0 +1,102 @@
+//
+//  TwitterViewViewController.m
+//  TwitterView
+//
+//  Created by surya gaddipati on 9/26/09.
+//  Copyright __MyCompanyName__ 2009. All rights reserved.
+//
+
+#import "TwitterViewViewController.h"
+#import "MGTwitterEngine.h"
+@implementation TwitterViewViewController
+@synthesize wordCountLabel,tweetTextView,initialTweet,username,password;
+
+
+- (void)dealloc {
+	[wordCountLabel dealloc];
+	[tweetTextView dealloc];
+	[initialTweet dealloc];
+	[username dealloc];
+	[password dealloc];
+    [super dealloc];
+}
+
+
+
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+     tweetTextView.editable = YES;
+
+    }
+    return self;
+}
+
+
+/*
+// Implement loadView to create a view hierarchy programmatically, without using a nib.
+- (void)loadView {
+}
+*/
+
+
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+//	((UIImageView*)self.view).image  = [UIImage imageNamed:@"background.png"];
+	 tweetTextView.text = initialTweet;	
+	[self textViewDidChange:tweetTextView];
+}
+
+
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+	// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+	
+	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+}
+
+
+
+
+
+- (IBAction)onSend:(id)sender{
+	MGTwitterEngine* twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
+		[twitterEngine setUsername:username password:password];
+		NSString* tweetId =  [ twitterEngine sendUpdate: tweetTextView.text ];
+		if(tweetId != nil){
+			
+		}
+		
+    [twitterEngine release];
+	[self dismissModalViewControllerAnimated:TRUE];
+}
+- (IBAction)onCancel:(id)sender{
+	[self dismissModalViewControllerAnimated:TRUE];
+}
+
+- (void)textViewDidChange:(UITextView *)textView{
+	wordCountLabel.text = [ NSString stringWithFormat:@"%d",140 - [textView.text length]];	
+}
+
+- (void)setInitialText:(NSString*)tweetMessage{
+	self.initialTweet= tweetMessage;
+	
+	
+}
+
+@end

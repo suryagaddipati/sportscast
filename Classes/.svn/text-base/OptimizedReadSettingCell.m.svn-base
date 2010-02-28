@@ -1,0 +1,29 @@
+//
+//  OptimizedReadSettingCell.m
+//  FollowMyTeams
+//
+//  Created by surya gaddipati on 9/20/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import "OptimizedReadSettingCell.h"
+#import "Options.h"
+
+@implementation OptimizedReadSettingCell
+@synthesize onOff;
+
+- (IBAction) settingsChanged:(id)sender{
+	[Options get].optimizedViewOn = [sender isOn];
+}
+
+- (void)dealloc {
+	[onOff release];
+    [super dealloc];
+}
+
+
+-(id) initialize{
+	[onOff setOn:  [[Options get] optimizedViewOn] animated:FALSE]; 
+	return self;
+}
+@end

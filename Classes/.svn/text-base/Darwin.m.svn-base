@@ -1,0 +1,73 @@
+//
+//  Darwin.m
+//  FollowMyTeams
+//
+//  Created by surya gaddipati on 8/6/09.
+//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//
+
+#import "Darwin.h"
+#import "RootViewController.h"
+
+@implementation Darwin
+@synthesize sid;
+
+-(void) dealloc{
+	[sid release];
+	[super dealloc];
+}
+
+- (id) init:(RootViewController*) rutControler {
+    self = [super init];
+    if (self != nil) {
+		controller=rutControler;
+		NSString* content = @"Email=sportscoop%40gmail.com&Passwd=nutclusters&service=reader";
+		
+		NSURL* url = [NSURL URLWithString:@"https://www.google.com/accounts/ClientLogin"];
+		NSMutableURLRequest* urlRequest = [[NSMutableURLRequest alloc]
+										   initWithURL:url];
+		[urlRequest setHTTPMethod:@"POST"];
+		[urlRequest setHTTPBody:[content dataUsingEncoding:
+								 NSASCIIStringEncoding]];
+		
+		NSURLConnection *connectionResponse = [[[NSURLConnection alloc] initWithRequest:urlRequest delegate:self]autorelease];
+		if (!connectionResponse) {
+			[controller failedUpdate];
+		} else {
+			
+			//responseData = [[NSMutableData alloc] init];
+		}
+		[urlRequest release];
+		
+    }
+    return self;
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+	
+	
+
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data{
+	NSString* response =	[[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+	//NSLog(@"REsponse %@" , response);
+	NSArray*tokens = [ response componentsSeparatedByString:@"\n"];
+	self.sid =  [ [ ((NSString*) [tokens objectAtIndex:0]) componentsSeparatedByString:@"="] objectAtIndex:1];
+	[response release];
+
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection{
+	[controller loadFeeds:sid];
+}
+
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{
+	
+	[controller failedUpdate];
+	
+}
+
+
+@end

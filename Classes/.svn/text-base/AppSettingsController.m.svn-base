@@ -1,0 +1,58 @@
+
+
+#import "AppSettingsController.h"
+
+
+@implementation AppSettingsController
+
+@synthesize onOff;
+
+- (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section{
+	return 2;
+}
+
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+	
+	if(indexPath.section == 0 && indexPath.row ==0) return [ onOff initialize];
+	
+	static NSString *CellIdentifier = @"SettingsCell";
+    
+	
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	
+    if (cell == nil) {
+        cell = [[[OptimizedReadSettingCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+		
+    }
+	cell.textLabel.text = @"Test";
+	
+	return cell;
+	
+}
+
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+	return 2;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+	return	section ==0 ? @"News Settings" : @"Sharing";
+}
+
+
+- (void)viewDidLoad{
+	self.title = @"Settings";
+}
+
+
+
+- (void)dealloc {
+	[onOff release];
+    [super dealloc];
+}
+
+
+@end
