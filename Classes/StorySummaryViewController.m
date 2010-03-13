@@ -251,7 +251,7 @@ static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
 #pragma mark AdMobDelegate methods
 
 - (NSString *)publisherId {
-	return @"a14ab5a31be1d89"; // this should be prefilled; if not, get it from www.admob.com
+	return @"a14b845cc10172f"; // this should be prefilled; if not, get it from www.admob.com
 }
 
 - (UIColor *)adBackgroundColor {
